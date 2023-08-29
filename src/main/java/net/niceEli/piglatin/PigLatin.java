@@ -10,7 +10,7 @@ public class PigLatin {
             translatedSentence.append(pigLatin).append(" ");
         }
 
-        System.out.println("Translation to Pig Latin: " + translatedSentence.toString().trim());
+        System.out.println(translatedSentence.toString().trim());
     }
 
     public static String translateToPigLatin(String englishWord) {
