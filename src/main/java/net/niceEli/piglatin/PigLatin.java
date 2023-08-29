@@ -18,7 +18,7 @@ public class PigLatin {
         if (isVowel(englishWord.charAt(0))) {
             return englishWord + "-y";
         } else {
-            // Find the first vowel in the word
+            // Find the index of the first vowel in the word
             int firstVowelIndex = findFirstVowelIndex(englishWord);
             if (firstVowelIndex == -1) {
                 // If there are no vowels, return the word as is
@@ -45,4 +45,3 @@ public class PigLatin {
         return -1; // No vowels found
     }
 }
-

@@ -46,7 +46,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>net.lem.ToolBox.Main</mainClass>
+                            <mainClass>net.niceEli.piglatin.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
